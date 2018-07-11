@@ -12,13 +12,6 @@ html {
     margin: 0 auto;
 }
 
-.header {
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    background: transparent;
-}
-
 .about-stage {
     width: 100%;
     height: 100%;

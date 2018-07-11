@@ -5,7 +5,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .home-stage__layer {
@@ -50,4 +49,16 @@
     margin-top: 40px;
     border-radius: 50%;
     border: 5px solid white;
+}
+
+.home-stage__arrow-down {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.home-stage__arrow-down i {
+    padding: 5px;
 }
