@@ -1,0 +1,26 @@
+.home-stage {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-stage__title {
+    font-size: 3.5rem;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home-stage__social {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+
+.home-stage__social a {
+    padding: 2px;
+    text-decoration: none;
+    color: inherit;
+}

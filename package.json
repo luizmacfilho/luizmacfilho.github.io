@@ -1,0 +1,35 @@
+{
+  "name": "luizmacfilho.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizmacfilho/luizmacfilho.github.io.git"
+  },
+  "keywords": [
+    "luizmacfilho",
+    "luiz filho",
+    "frontend",
+    "developer",
+    "website",
+    "freelancer"
+  ],
+  "author": "Luiz Filho <luiz.macfilho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizmacfilho/luizmacfilho.github.io/issues"
+  },
+  "homepage": "https://github.com/luizmacfilho/luizmacfilho.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
