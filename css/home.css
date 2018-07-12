@@ -57,8 +57,16 @@
     width: 100%;
     text-align: center;
     font-size: 1.3rem;
+    animation: grow-arrow 2s infinite;
 }
 
 .home-stage__arrow-down i {
     padding: 5px;
+}
+
+@keyframes grow-arrow {
+    0% { font-size: 1.3rem; }
+    20% { font-size: 1.6rem; }
+    40% { font-size: 1.3rem; }
+    100% { font-size: 1.3rem; }
 }
