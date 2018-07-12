@@ -12,6 +12,10 @@ html {
     margin: 0 auto;
 }
 
+.margin-vertical {
+    margin: auto 0;
+}
+
 .about-stage {
     width: 100%;
     height: 100%;

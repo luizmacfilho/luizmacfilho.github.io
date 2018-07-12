@@ -32,6 +32,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Register tasks.
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['cssmin']);
 
 };
