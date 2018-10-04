@@ -4,15 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta name="theme-color" content="#000000">
-
         <title>Luiz Filho - Frontend Developer</title>
-
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="dist/styles.min.css?v=1.0.0">
     </head>
     <body>
-        <header class="header">
+        <header id="header" class="header">
             <span class="header__logo"></span>
             <ul class="header__items">
                 <li class="header__item">About</li>
@@ -23,7 +21,7 @@
                 <i class="fas fa-bars"></i>
             </div>
         </header>
-        <section class="home-stage">
+        <section id="home-stage" class="home-stage">
             <div class="home-stage__layer"></div>
             <div class="home-stage__content">
                 <span class="home-stage__title margin-horizontal">Luiz Filho</span>
@@ -38,11 +36,13 @@
                 <img class="home-stage__photo margin-horizontal" src="img/profile.png?v=1.0.0" />
             </div>
             <div class="home-stage__arrow-down margin-horizontal">
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-down" onclick="moveToAboutStage()"></i>
             </div>
         </section>
-        <section class="about-stage">
+        <section id="about-stage" class="about-stage">
 
         </section>
+        <script src="js/main.js"></script>
+        <!-- <script src="dist/main.min.js"></script> -->
     </body>
 </html>

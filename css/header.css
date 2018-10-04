@@ -1,12 +1,13 @@
 .header {
     z-index: 5;
-    position: absolute;
+    position: fixed;
     width: calc(100% - 30px);
     height: 30px;
-    background: transparent;
-    margin: 15px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    transition: all ease 0.3s;
+    background: transparent;
 }
 
 .header__items {
